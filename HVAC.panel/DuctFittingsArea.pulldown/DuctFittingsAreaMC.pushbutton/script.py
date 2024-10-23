@@ -92,24 +92,6 @@ def get_param_value(param):
         return None
 
 # Definicja wymaganych parametrów dla każdego typu kształtki
-# required_params = {
-#     'BA': ['A', 'B', 'D', 'E', 'F', 'R', 'LIN_VE_ANG_W'],
-#     'BO': ['A', 'B', 'E'],
-#     'BS': ['A', 'B', 'D', 'E', 'F', 'R', 'LIN_VE_ANG_W'],
-#     'ES': ['L', 'A', 'B', 'D', 'E', 'R'],
-#     'OA': ['L', 'A', 'B', 'C', 'D', 'E', 'F', 'M', 'T'],
-#     'OS': ['L', 'A', 'B', 'C', 'D', 'E', 'F', 'M', 'T'],
-#     'RA': ['L', 'A', 'B', 'C', 'D', 'E', 'F', 'M', 'T'],
-#     'RS': ['L', 'A', 'B', 'C', 'D', 'E', 'F', 'M', 'T'],
-#     'SU': ['L', 'A', 'B', 'D', 'R'],
-#     'TD': ['L', 'A', 'B', 'C', 'D', 'H', 'R'],
-#     'TG': ['L', 'A', 'B', 'D', 'H', 'M', 'N', 'R1', 'R2'],
-#     'UA': ['L', 'A', 'B', 'C', 'D', 'E', 'F'],
-#     'US': ['L', 'A', 'B', 'C', 'D', 'E', 'F'],
-#     'WA': ['A', 'B', 'D', 'E', 'F', 'R', 'LIN_VE_ANG_W'],
-#     'WS': ['A', 'B', 'D', 'E', 'F', 'R', 'LIN_VE_ANG_W'],
-#     'HS': ['A', 'B', 'D', 'E', 'M', 'L', 'H']
-# }
 
 required_params = {
         'BA': ['a', 'b', 'd', 'e', 'f', 'r', 'Alpha'],
